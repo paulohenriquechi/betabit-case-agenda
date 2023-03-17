@@ -21,7 +21,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 100px;
+    min-height: 50px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -36,41 +36,35 @@ body{
 }
 
 .container{
-    border: 1px solid black;
     padding: 1em;
     /* text-align: center; */
     min-width: fit-content;
     max-width: 900px;
     margin: 0 auto;
 }
-.container>h1{
-    text-align: left;
-}
 
 .input-group{
-    border: 1px solid white;
-    border-radius: 5px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     margin: 10px auto;
-    width: 500px;
     padding: 10px;
     font-size: large;
+    border: 1px solid white;
+    width: 500px;
     background-color: rgba(0, 0, 0, 0.3);
-    justify-content: center;
+    border-radius: 5px;
 }
-
-.input-container{
-    display: grid;
-
-}
-
 .input-group>label{
-    margin: 0 10px;
-    width: 150px;
-}
-.input-group>input{
+    padding: 10px 0px;
     font-size: large;
-    width: 200px;
-    
+}
+
+.input-group>input{
+    font-size: medium;
+    padding: 10px;
+    border: none;
+}
+button{
+    height: 40px;
+    cursor: pointer;
 }
