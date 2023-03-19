@@ -113,3 +113,11 @@ tr, th, td{
     padding: 10px;
     text-align: center;
 }
+
+.erro-msg{
+    color: red;
+}
+
+.erro-input{
+    border: 1px solid red;
+}

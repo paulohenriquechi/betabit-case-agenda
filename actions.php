@@ -44,15 +44,15 @@
                         $pathFoto = $info["photo"];
 
                         echo "
-                            <tr>
+                            <tr class='pessoa'>
                                 <td>$nome</td>
                                 <td>$data</td>
                                 <td>$email</td>
                                 <td>$telefone</td>
                                 <td>$pathFoto</td>
                                 <td>
-                                    <button>Editar</button>
-                                <button>Remover</button>
+                                    <button >Editar</button>
+                                    <button >Remover</button>
                                 </td>
                             </tr>
                         ";
